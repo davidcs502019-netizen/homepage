@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Video Projects</title>
+    <meta name="author" content="David Davis" />
+    <meta
+      name="description"
+      content="This page is dedicated to hosting videos and clips that I've recorded or edited."
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <img
+      src="images/homepagebanner.png"
+      alt="A blue banner with a keyboard in the background and coding symbols"
+      width="800"
+      height="200"
+    />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="audio.html">Audio</a>
+      <a href="video.html">Video</a>
+    </nav>
+    <h1>Video Projects</h1>
+    <p>
+      While studying HTML through MDN, I was encouraged to work on audio and
+      video projects as well. This will mostly be short clips, fragments of
+      ideas, and works in progress, but I wanted a place to collect them and
+      share them.
+    </p>
+    <section>
+      <h2>Demo of <code>htop</code></h2>
+      <figure>
+        <video controls width="100%" poster="video/poster.png">
+          <source src="video/htop.mp4" type="video/mp4" />
+          <source src="video/htop.webm" type="video/webm" />
+          <p>
+            Your browser doesn't support this video. Here is a
+            <a href="video/htop.mp4">link to the video</a> instead.
+          </p>
+        </video>
+        <figcaption>
+          This is an example of the htop command in action. Most Linux
+          distributions have this package available in their repositories. To
+          install in Ubuntu or other Debian based systems run
+          <code>sudo apt install htop</code>. Then to run the command, simply
+          type <code>htop</code>. This will show CPU usage, RAM and Swap usage,
+          system uptime, and individual processes and their information.
+        </figcaption>
+      </figure>
+    </section>
+  </body>
+</html>
